@@ -1,3 +1,13 @@
+/*
+*Palash K. Nath
+*
+* Description: Greedy algorithms are used for optimization problems. 
+* An optimization problem can be solved using Greedy if the problem has the following property: 
+* At every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.
+* Description credit: www.geeksforgeeks.org
+*
+*/
+
 #include<cs50.h>
 #include<stdio.h>
 #include<math.h>
