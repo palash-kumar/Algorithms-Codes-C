@@ -3,27 +3,27 @@
 int main(void)
 {
     int height=0;
-
+    
     //do-while loop to prompt user until you get a positive number.
     do
     {   //Prompt the user for input
-
+        
         //Traditional way of taking input from user
-        printf("Enter a positive number : ");
+        printf("Enter height of the Pyramid : ");
         scanf("%d",&height);
-
+        
         //advanced way of promting user for input
         //n = get_int("positive number: ");
     }while (height < 0 );
 
     // for loops specifying number of spaces and hashes per line
-    for (int line = 0; line < height; line++)
+    for (int i = 0; i < height; i++)
     {
-        for (int spaces = height - line; spaces > 1; spaces--)
+        for (int spaces = height - i; spaces > 1; spaces--)
         {
             printf(" ");
         }
-        for (int hashes = 0; hashes < line + 2; hashes++)
+        for (int hashes = 0; hashes < i + 2; hashes++)
         {
             printf("#");
         }
@@ -31,8 +31,10 @@ int main(void)
     }
 }
 
-input 4
-   **
-  ***
- ****
-*****
+OUTPUT:
+Enter height of the Pyramid : 4
+   ##
+  ###
+ ####
+#####
+
