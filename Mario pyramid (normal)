@@ -14,7 +14,8 @@ int main(void)
         
         //advanced way of promting user for input
         //n = get_int("positive number: ");
-    }while (height < 0 );
+        
+    }while (height < 0 ); //|| height > 23 ** Add this condition to limit the height of the pyramid
 
     // for loops specifying number of spaces and hashes per line
     for (int i = 0; i < height; i++)
