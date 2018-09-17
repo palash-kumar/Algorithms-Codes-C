@@ -19,10 +19,6 @@ int main(void)
     // for loops specifying number of spaces and hashes per line
     for (int i = 0; i < height; i++)
     {
-        for (int spaces = height - i; spaces > 1; spaces--)
-        {
-            printf(" ");
-        }
         for (int hashes = 0; hashes < i + 2; hashes++)
         {
             printf("#");
@@ -33,7 +29,7 @@ int main(void)
 
 OUTPUT:
 Enter height of the Pyramid : 4
-   ##
-  ###
- ####
+##
+###
+####
 #####
