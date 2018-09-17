@@ -40,3 +40,16 @@ int main()
     printf("Change is : %i\n" , coin);
 
 }
+
+OUTPUT:
+#test case 1
+Enter the change to give : 0.01
+Change is : 1
+
+#test case 2
+Enter the change to give : 0.15
+Change is : 2
+
+#test case 3
+Enter the change to give : 0.41
+Change is : 4
