@@ -1,0 +1,42 @@
+#include<cs50.h>
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float dollar=0.0;
+    int cents[4]={25,10,5,1}; //possible changes
+
+    do{//this is used to take input from user aby of them can be used
+
+        //Advanced way to take input from the user
+        //dollar = get_float("Enter the change to give : ");
+
+        //Traditional way of takin input from user
+        printf("Enter the change to give : ");
+        scanf("%f",&dollar);
+    }
+
+    while (dollar < 0);
+
+    //once you obtain a positive float round it by multiplying 100, and convert it to int value
+    int change = round(dollar*100), coin=0, i=0;
+
+    //while the amount of change is less than 5 cents
+    while ( change >= cents[i]||change>0){
+        //check if the change is less then the cent retrived from the cents[] array
+        if(change < cents[i]){
+            i++;
+        }
+        //if i reaches the max length of array then exits
+        if(i==4){
+            break;
+        }else{
+            //calculation for carried out
+            change = change - cents[i];
+            coin++;
+        }
+
+    }
+    printf("Change is : %i\n" , coin);
+
+}
