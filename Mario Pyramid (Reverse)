@@ -1,4 +1,3 @@
-#include <cs50.h>
 #include <stdio.h>
 int main(void)
 {
@@ -13,7 +12,7 @@ int main(void)
         scanf("%d",&height);
         
         //advanced way of promting user for input
-        //n = get_int("positive number: ");
+        //n = get_int("positive number: "); // for CS50-> #include <cs50.h>
         
     }while (height < 0 ); //|| height > 23 ** Add this condition to limit the height of the pyramid
 
