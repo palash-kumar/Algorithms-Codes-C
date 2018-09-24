@@ -8,7 +8,6 @@
 *
 */
 
-#include<cs50.h>
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -19,7 +18,7 @@ int main()
     do{//this is used to take input from user aby of them can be used
 
         //Advanced way to take input from the user
-        //dollar = get_float("Enter the change to give : ");
+        //dollar = get_float("Enter the change to give : "); // for CS50 - > #include<cs50.h>
 
         //Traditional way of takin input from user
         printf("Enter the change to give : ");
