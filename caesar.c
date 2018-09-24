@@ -4,12 +4,12 @@
  * Description: The Caesar cipher is also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, named after
  * Julius Caesar, which is one of the simplest and famous encryption techniques. In caesar cipher a plain text is replaced by a 
  * letter to some fixed number of position which is known as the key down the alphabet.
- * Eg: **If _key = 3_ (for Right shift)** 
- *    >and message = 'a'; then the cipher will be 'd';
- *    >and message = 'D'; then the cipher will be 'G';   
- * Eg: **If _key = 3_ (for Left shift)** 
- *    >and message = 'g'; then the cipher will be 'd';
- *    >and message = 'E'; then the cipher will be 'B';
+ * Eg: If _key = 3_ (for Right shift)
+ *   > and message = 'a'; then the cipher will be 'd';
+ *   > and message = 'D'; then the cipher will be 'G';   
+ * Eg: If _key = 3_ (for Left shift) 
+ *   > and message = 'g'; then the cipher will be 'd';
+ *   > and message = 'E'; then the cipher will be 'B';
  * 
  * */
 
